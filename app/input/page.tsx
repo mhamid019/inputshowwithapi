@@ -26,7 +26,7 @@ export default function Input() {
 
   return (
     <div className="flex items-center flex-col">
-      <h2 className="text-xl font-bold mb-4 text-white">Add Student</h2>
+      <h2 className="text-xl font-bold mb-4">Add Student</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 w-64">
         <input
           type="text"
