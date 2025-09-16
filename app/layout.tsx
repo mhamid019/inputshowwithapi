@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gray-900">
+      <body className="min-h-screen">
         {/* Navbar */}
         <nav className="flex gap-6 p-4 shadow text-white bg-sky-900">
           <Link href="/">Home</Link>
